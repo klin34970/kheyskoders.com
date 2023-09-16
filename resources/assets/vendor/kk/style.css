@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../webfonts/icomoon.eot?i6oevm');
+  src:  url('../webfonts/icomoon.eot?i6oevm#iefix') format('embedded-opentype'),
+    url('../webfonts/icomoon.ttf?i6oevm') format('truetype'),
+    url('../webfonts/icomoon.woff?i6oevm') format('woff'),
+    url('../webfonts/icomoon.svg?i6oevm#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 80px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-youtube-music:before {
+  content: "\e900";
+}
+.icon-google-play-music:before {
+  content: "\e901";
+}
+.icon-deezer:before {
+  content: "\e902";
+}
+.icon-itunes:before {
+  content: "\e903";
+}
+.icon-amazon-music:before {
+  content: "\e904";
+}
+.icon-spotify:before {
+  content: "\e905";
+}
+.icon-tiktok:before {
+  content: "\e906";
+}
+
+section.contact ul.list-social li.social-tiktok a{
+    background-color: #010101
+}
+section.contact ul.list-social li.social-tiktok a:hover{
+    background-color: #191919
+}
+
+section.contact ul.list-social li.social-spotify a{
+    background-color: #84bd00
+}
+section.contact ul.list-social li.social-spotify a:hover{
+    background-color: #6fa100
+}
+
+section.contact ul.list-social li.social-itunes a{
+    background-color: #69a6f9
+}
+section.contact ul.list-social li.social-itunes a:hover{
+    background-color: #659eef
+}
+
+section.contact ul.list-social li.social-deezer a{
+    background-color: #ff0092
+}
+section.contact ul.list-social li.social-deezer a:hover{
+    background-color: #cd006d
+}
+
+section.contact ul.list-social li.social-google-play-music a{
+    background-color: #ff8c00
+}
+section.contact ul.list-social li.social-google-play-music a:hover{
+    background-color: #e27800
+}
+
+section.contact ul.list-social li.social-youtube-music a{
+    background-color: #FF0000
+}
+section.contact ul.list-social li.social-youtube-music a:hover{
+    background-color: #c00000
+}
